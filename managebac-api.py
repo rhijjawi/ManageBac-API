@@ -23,9 +23,6 @@ class InvalidURL(Exception):
         print(f"https://[red]{domain}[/red].managebac.com")
         return  "is an invalid domain, please verify information and retry"
 
-domain = """isuganda""" or None
-cookie = r"""XDg9OWHX1FoqCuyN0mKtOUwicjs%2FNNvWkLktEv3lzMzXKb3eYbUE44WhG2rQ5JxQBFrwW62bd%2B2LdAfOvkRQ72LtzrU0dxq%2BQy3wkbQtx4CTuzLs%2BJRJupxAmGlndAW2dNNnfnctAPVFZx0igIfTu%2Brk6SmjMiw71LEd0CRMM%2FUtKucU89bflXQMKI6790CU3tZlSbi%2FUh9dURkDRYYNiyuGKVtYZYb6cBsE7fXv%2FEVzYptQstLv8w228Hy4jDphjscAH4W2%2Bhh5YmAno0CLBZrxvy6uoGgFwQWTjLoJRVJE5N93aSOnpqr68uSyjaDi993FjyaR7sbcxOhSSVznxlRn1sdcxLkFIpzHi0Z%2BAnFV%2FQi9%2BdJ3AfcrUyZIYzvubsJXDU5JeVqBOTAegZw3pLTM4jrizkuOr7mc1nhXXbxRBKbfuuMPxzP3oG0vmxD0SX8wVtaNTI4UT6FjxldrUIzW6nIAnVaEXComhBW7Jd7IX9soD7mGJ4epPKNzDMzf7cUjjMawdfpZdR%2BfSnbg59vcCdHNIqG1Uycsb55mdcRVobAPoUtUBSq6QuiMrknwWrI8GKkqndXDsZ3xLi3Z%2F6htPckWXWhiH2WCNE6AO4imGoCQ6zt7zk2GVoayp37DYwgbVQISFYA%3D--V1Q6owXXIRHv5ny1--SKLzWGWzt6kuvv5lethpXw%3D%3D; Expires=Mon, 26 Sep 2022 18:34:18 GMT; Path=/; Secure; HttpOnly; SameSite=Lax; Domain=isuganda.managebac.com""" or None
-
 def mbapi(domain:str=None, cookie:str=None):
     """
     Param DOMAIN: the subdomain of your FariaOne ManageBac site (The ****. part of ****.managebac.com)
@@ -107,5 +104,3 @@ def mbapi(domain:str=None, cookie:str=None):
     except Exception as e:
         print(e)
     return fdict
-r = mbapi()
-print(r)
