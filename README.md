@@ -32,7 +32,9 @@ ManageBac has been lacking in terms of APIs accessible by students. I set off to
 `BeautifulSoup4`
 `Requests`
 
-* []()
+`Node.js`
+`cheerio`
+`jssoup`
 
 ## Getting Started
 
