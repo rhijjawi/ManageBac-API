@@ -87,6 +87,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/rhijjawi/Man
 
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [](Ramzi Hijjawi)
+
