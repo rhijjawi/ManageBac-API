@@ -1,20 +1,16 @@
 {
-    "name": "managebac_api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Rocky43007",
-    "license": "ISC",
-    "dependencies": {
-      "cheerio": "^1.0.0-rc.10",
-      "es6-promise": "^4.2.8",
-      "isomorphic-fetch": "^3.0.0",
-      "jssoup": "^0.0.12",
-      "node-fetch": "^2.6.2",
-      "node-fetch-cookies": "^2.0.3"
-    }
-  }
-  
+  "name": "managebac_api",
+  "version": "1.0.0",
+  "description": "ManageBac has been lacking in terms of APIs accessible by students. I set off to make a web-scraper for students that allows them to turn their ManageBac portal into `json` parse-able content.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.2"
+  },
+  "homepage": "https://github.com/rhijjawi/ManageBac-API",
+  "author": "Rocky43007 (https://github.com/Rocky43007)",
+  "repository": "rhijjawi/ManageBac-API"
+}

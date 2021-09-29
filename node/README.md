@@ -28,15 +28,15 @@ ManageBac has been lacking in terms of APIs accessible by students. I set off to
 
 ## Built With
 
-`Python 3.8`
-`BeautifulSoup4`
-`Requests`
+`Node.js v16`
+`Node-Fetch`
+`Cheerio`
 
 * []()
 
 ## Getting Started
 
-`pip install managebac_api`
+`npm i managebac_api`
 
 ### Prerequisites
 
@@ -44,20 +44,18 @@ It's used as a function, pretty easy stuff
 
 ### Installation
 
-pip install managebac_api
-```py
-import managebac_api
-from managebac_api import managebac_api
-
-
-managebac_api.mbapi(domain, cookie)
+```js
+const mbapi = require('managebac_api');
 ```
 
 ## Usage
 
-```py
-managebac_api.mbapi("IBS","o1h98dh93hr2r32d...")
+```js
+//First Argument is your Domain
+//Second Argument is your Token
+mbapi("IBS","o1h98dh93hr2r32d...")
 ```
+
 1st part of the function is the subdomain that you use for managebac. In this case IBS.managebac.com would be what the student normally visits
 2nd part is the session cook that you can get can get by look in the dev console (F12)
 
@@ -83,7 +81,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/rhijjawi/Man
 
 ## Authors
 
-* **Ramzi Hijjawi** - *Python Programmer* - [Ramzi Hijjawi](https://github.com/rhijjawi/) - *Designed from the ground up*
 * **Arnab Chakraborty** - *Javascript/Typescript Programmer* - [Arnab Chakraborty](https://github.com/Rocky43007/) - *Designed from the ground up*
 
 ## Acknowledgements
