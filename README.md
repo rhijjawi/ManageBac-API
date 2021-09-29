@@ -90,5 +90,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/rhijjawi/Man
 
 ## Acknowledgements
 
-* [Ramzi Hijjawi](https://github.com/rhijjawi/)
-* [Arnab Chakraborty](https://github.com/Rocky43007)
+* [Ramzi Hijjawi](https://github.com/rhijjawi/) - Python Code
+* [Arnab Chakraborty](https://github.com/Rocky43007) - Node.js Code
