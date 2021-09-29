@@ -2,7 +2,7 @@ import requests as req
 from bs4 import BeautifulSoup
 cal = {"Jan": 1,"Feb": 2,"Mar": 3,"Apr": 4,"May": 5,"Jun": 6,"Jul": 7,"Aug": 8,"Sep": 9,"Oct": 10,"Nov": 11,"Dec": 12,}
 fdict = {"studentname": "", "deadlines": [], "tasks": []}
-cookiestart = ["_managebac_session", "managebac_session", " "]
+cookiestart = ["_managebac_session", "managebac_session", "_managebac_session: "]
 class NoDomain(Exception):
     def __init__(self, message="""Make sure you defined the domain in the function. main("domain", "cookie")\nEx:run("myschool",cookie) OR run("myschool.managebac.com",cookie)"""):
         self.message = message
