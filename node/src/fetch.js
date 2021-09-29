@@ -80,4 +80,4 @@ async function mbapi(domain, token) {
     }
 }
 
-module.exports = mbapi();
+module.exports.mbapi = mbapi;
