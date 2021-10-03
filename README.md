@@ -39,7 +39,7 @@ ManageBac has been lacking in terms of APIs accessible by students. I set off to
 ## Getting Started
 
 `pip install managebac_api`
-
+`npm i managebac_api`
 ### Prerequisites
 
 It's used as a function, pretty easy stuff
