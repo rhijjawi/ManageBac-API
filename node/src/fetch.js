@@ -20,7 +20,7 @@ async function mbapi(domain, token) {
     do {
         let req;
         try {
-            req = await fetch(`https://kaust.managebac.com/student/tasks_and_deadlines?upcoming_page=${i}`, {
+            req = await fetch(`https://${domain}.managebac.com/student/tasks_and_deadlines?upcoming_page=${i}`, {
                 headers: {
                     cookie: `_managebac_session=${token}`
                 }
