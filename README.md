@@ -18,7 +18,7 @@
   </p>
 </p>
 
-![License](https://img.shields.io/github/license/rhijjawi/ManageBac-API) 
+![License](https://img.shields.io/github/license/rhijjawi/ManageBac-API) ![Contributors](https://img.shields.io/github/contributors/rhijjawi/NextDNS-API?color=dark-green)
 
 ## About The Project
 
