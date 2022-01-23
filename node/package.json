@@ -8,7 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
-    "node-fetch": "^2.6.2"
+    "node-fetch": "^3.1.1"
   },
   "homepage": "https://github.com/rhijjawi/ManageBac-API",
   "author": "Rocky43007 (https://github.com/Rocky43007)",
